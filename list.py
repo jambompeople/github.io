@@ -1,13 +1,13 @@
-myList  = ["hello","good morning","goodbye"]
-num1 = 200
-num2 = 201
-num3 = 202
+digit = 8
+numbers = [1,2,3,4,5,6,7,8,9,0]
+letters = ['a','b','c','d','e']
 
-if num1>num2:
-    print(myList[1])
-elif num2<num3:
-    print(myList[0])
-    if num1<num2:
-        print(myList[1])
-else:
-    print(myList[2])
+specialCharacter = []
+for x in range(3):
+    if x == 1:
+        for z in numbers:
+            print(z)
+    if x == 2:
+        for y in letters:
+            print(y)
+print(numbers[0])

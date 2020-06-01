@@ -1,6 +1,7 @@
 import random
 import os
 names = []
+result = []
 num = int(input("put the number of rounds and people here\n"))
 os.system("clear")
 for y in range(0,num):
@@ -12,3 +13,5 @@ for x in range (0,num):
     final=random.choice(dice)
     dice.remove(final)
     print(str(names[x])+"\t"+str(final))
+    result.append(final)
+print("the player who got "+str(max(result))+" wins")

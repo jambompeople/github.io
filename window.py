@@ -1,6 +1,6 @@
 from tkinter import*
 
 root = Tk()
-label = Label(root, text="this is a text")
+label = Label(root, text="hello world")
 label.pack()
 root.mainloop()

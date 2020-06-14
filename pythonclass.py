@@ -5,7 +5,7 @@ class people:
     def print(self):
         print(self.name,self.age)
 
-Jackson = people("Jackson", 3)
-Jackson.name = "jd"
-Jackson.age = 3
+Jackson = people("Jackson", 13)
+Jackson.name = "JD"
+Jackson.age = 12
 Jackson.print()

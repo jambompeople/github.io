@@ -26,3 +26,25 @@ print(arra.ndim)
 list = np.array([1,5,6,7,7])
 
 print(list[0])
+
+print(list.dtype)
+
+you = np.array([8,9,7,6,0], dtype = 'S')
+
+print(you)
+
+print(you.dtype)
+
+copy = np.array([3,4,5,6])
+
+copy1 = copy.copy()
+
+copy[0] = 300
+
+print(copy)
+
+print(copy1)
+
+process = np.array([[45,6,7,8],[64,67,23,56]])
+
+print(process.shape)

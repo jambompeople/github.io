@@ -5,7 +5,8 @@ root.title("calculator")
 ent = Entry(root, width = 35, borderwidth = 5)
 ent.grid(row = 0, column = 0, columnspan = 3, padx = 10, pady = 10)
 #create click function
-def click():
+def click(number):
+    return
 #create buttons
 button1 = Button(root, text = "1", padx = 40, pady = 20, command = click)
 button2 = Button(root, text = "2", padx = 40, pady = 20, command = click)
@@ -17,11 +18,11 @@ button7 = Button(root, text = "7", padx = 40, pady = 20, command = click)
 button8 = Button(root, text = "8", padx = 40, pady = 20, command = click)
 button9 = Button(root, text = "9", padx = 40, pady = 20, command = click)
 button0 = Button(root, text = "0", padx = 40, pady = 20, command = click)
-buttonequal = Button(root, text = "=", padx = 40, pady = 20, command = buttonadd)
-buttonplus = Button(root, text = "+", padx = 40, pady = 20, command = buttonadd)
-buttonminus = Button(root, text = "-", padx = 40, pady = 20, command = buttonadd)
-buttontimes = Button(root, text = "*", padx = 40, pady = 20, command = buttonadd)
-buttondivide = Button(root, text = "/", padx = 40, pady = 20, command = buttonadd)
+buttonequal = Button(root, text = "=", padx = 40, pady = 20, command = click)
+buttonplus = Button(root, text = "+", padx = 40, pady = 20, command = click)
+buttonminus = Button(root, text = "-", padx = 40, pady = 20, command = click)
+buttontimes = Button(root, text = "*", padx = 40, pady = 20, command = click)
+buttondivide = Button(root, text = "/", padx = 40, pady = 20, command = click)
 buttonclear = Button(root, text = "clear")
 #put the buttons on the screen
 button1.grid(row = 3, column = 0)

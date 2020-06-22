@@ -1,5 +1,6 @@
-N = int(input()) #5
-prices = []
-for x in range(0,N):
-    prices.append(int(input()))
-print(prices)
+def eating(food, drink):
+    food = input("what are you eating")
+    drink = input("what are you drinking")
+    print("you are eating" + food + "you are drinking" + drink)
+
+eating()

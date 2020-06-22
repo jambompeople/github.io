@@ -6,7 +6,7 @@ todolist.pack()
 ent = Entry(root)
 ent.pack()
 def add():
-    task = Label(root, text = ent.get())
+    task = Button(root, text = ent.get())
     task.pack()
 addTask = Button(root, text = "Add Task", command = add)
 addTask.pack()
